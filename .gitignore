@@ -1,0 +1,42 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# Local editor files
+.vscode/
+.idea/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local test outputs
+analysis/output/
+analysis/reports/
+
+# Large raw evidence files should not be committed directly.
+# Store large raw videos/sensor dumps in Releases, Git LFS, or external evidence storage,
+# then record hashes and storage locations in the evidence manifest.
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.zip
+*.7z
+*.tar
+*.gz
